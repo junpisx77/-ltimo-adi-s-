@@ -96,7 +96,7 @@
       Después… lo dejaré ir todo.
     </p>
     <div class="botones">
-      <button onclick="enviarRespuesta('Sí')">Sí… una última vez</button>
+      <button onclick="enviarRespuesta('Si')">Si… una última vez</button>
       <button class="no-btn" onclick="enviarRespuesta('No')">No… es mejor así</button>
     </div>
     <div id="respuesta"></div>
@@ -114,7 +114,7 @@
 
     function enviarRespuesta(valor) {
       // Mostrar mensaje visual
-      if (valor === 'Sí') {
+      if (valor === 'Si') {
         mostrarMensaje('Lugar: Donde solíamos vernos, Fecha: 15-04-2025, Hora: 04:00 PM');
       } else {
         mostrarMensaje('Entiendo… cuídate.');
